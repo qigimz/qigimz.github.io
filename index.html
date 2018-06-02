@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-<<<<<<< HEAD
-	<!--[if lt IE 9]>
+<header>	<!--[if lt IE 9]>
 	<script src="ie9.js"></script>
 	<![endif]-->
-	
-=======
->>>>>>> c57d836eccc03ff9f37318482c092d6b066e162d
 	<title>This is Gimz's Blog</title>
 	<meta charset="utf-8">
 	<meta name="Keywords" content="Gimz">
@@ -23,30 +18,44 @@
 	<style></style>
 	
 
-</head>
+</header>
 
-<body background="img/background.jpg"  leftmargin="50" topmargin="50" >
+<body class="body">
 
 <!------------------------------------->	
-<div id="header" style="color: aliceblue;height: 138px;width: 1280px">
+<div class="title" id="title">
 <!------------------------------------->	
-<<<<<<< HEAD
-	<h1><img src="img/author.png" height="100" width="100" alt="gimz's img">This is Gimz's Blog</h1>
-=======
+
 	<h1><img src="img/author.png" height="100" width="100" alt="gimz's img">Gimz's Blog</h1>
->>>>>>> c57d836eccc03ff9f37318482c092d6b066e162d
 <!------------------------------------->	
-	<pre>                I'm very happy to share my first Website with you.</pre>
-<!------------------------------------->	
-	<div id="nar">
-	<ul style="background-color: cadetblue">
-		<td>回到首页</td>
-		<td>学习笔记</td>
-		<td>生活随笔</td>
-		<td>记录世界</td>
-		<td>了解Gimz</td>
-	</ul>
+  <pre>                I'm very happy to share my first Website with you.</pre>
+<!------------------------------------->
+
+<nav class="nav" id="nav">
+	<ul>
+	<li><a href="#">首页</a></li>
+	<div class="dropdown">
+		<a href="#" class="dropbtn">linux</a>
+		<div class="dropdown-content">
+			<a herf="#">树莓派</a>
+			<a herf="#">centos</a>
+			<a herf="#">Ubuntu</a>
+		</div>
 	</div>
+	<div class="dropdown">
+		<a href="#" class="dropbtn">编程语言</a>
+		<div class="dropdown-content">
+			<a herf="#">C语言</a>
+			<a herf="#">Python</a>
+			<a herf="#">Html5/Css/JS</a>
+		</div>
+	</div>
+	<li><a href="#">电子技术</a></li>
+	<li><a href="#">基础课程</a></li>
+	<li><a href="#">电子书</a></li>
+	<li style="float: right"><a href="#">关于</a></li>
+</ul>
+</nav>
 <!------------------------------------->	
 </div>
 
@@ -54,12 +63,11 @@
 	
 </div>
 
-<div id="bottom" style="height: 138px">
-	<p align="center" style="color: aliceblue">
+<footer id="footer" class="footer">
+	<p align="center" id="copyright" >
 		copyright: GimzQi
-	</p>
-	
-</div>
+  </p>
+</footer>
 
 </body>
 </html>
